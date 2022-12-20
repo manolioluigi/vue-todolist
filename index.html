@@ -19,9 +19,10 @@
             <div class="row height-full justify-content-center">
                 <div class="col-5 height-full">
                     <div class="card margin-top-10">
-                        <h1 class="text-center">to do list</h1>
+                        <h1 class="text-center my-3">to do list</h1>
+                        <hr>
                         <ul class="list-unstyled">
-                            <li v-for="(text, index) in todolist" :class="text.done ? 'crossed' : ''" class="d-flex justify-content-between px-5">
+                            <li v-for="(text, index) in todolist" :class="text.done ? 'crossed' : ''" class="d-flex justify-content-between px-5" @click="changeStatus(index)">
                                 <div>
                                 {{ index}} - 
                                 {{ text.text }}

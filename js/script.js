@@ -50,6 +50,15 @@ createApp({
         }
         this.todolist.push(addedTask);
         this.newTaskText = '';
+    },
+    
+    changeStatus(index){
+        let task = this.todolist[index];
+        if(task.done == true){
+            task.done = false
+        }else{
+            task.done = true;
+        }
     }
 
   }
