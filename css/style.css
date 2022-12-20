@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.height-full{
+    height: 100vh;
+}
+
+.margin-top-10{
+    margin-top: 10vh;
+}
+
+.crossed{
+    text-decoration: line-through;
+}
+
+.cross{
+    padding: 1px 8px 1px 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+li{
+    padding: 10px 0px 10px 0px;
+}
+
+li:hover{
+    background-color: rgb(192, 191, 191);
+}
+
+li:hover .cross{
+    background-color: white;
+    transform: scale(1.2);
+}
