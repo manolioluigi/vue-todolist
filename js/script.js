@@ -48,7 +48,7 @@ createApp({
             text: this.newTaskText,
             done: false
         }
-        this.todolist.push(this.addedTask);
+        this.todolist.push(addedTask);
         this.newTaskText = '';
     }
 
