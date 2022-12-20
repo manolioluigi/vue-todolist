@@ -48,8 +48,8 @@ createApp({
             text: this.newTaskText,
             done: false
         }
-        this.todolist.push(this.newTaskText);
-        this.newTask = '';
+        this.todolist.push(this.addedTask);
+        this.newTaskText = '';
     }
 
   }
