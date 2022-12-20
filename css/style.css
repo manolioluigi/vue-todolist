@@ -27,7 +27,7 @@ li{
 }
 
 li:hover{
-    background-color: rgb(192, 191, 191);
+    background-color: rgb(168, 168, 168);
 }
 
 li:hover .cross{

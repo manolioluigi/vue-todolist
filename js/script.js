@@ -45,10 +45,10 @@ createApp({
 
     addTask(){
         let addedTask = {
-            text: this.newTask,
+            text: this.newTaskText,
             done: false
         }
-        this.todolist.push(this.newTask);
+        this.todolist.push(this.newTaskText);
         this.newTask = '';
     }
 
